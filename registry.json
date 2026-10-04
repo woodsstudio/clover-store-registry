@@ -1,17 +1,17 @@
 [
   {
-    "id": "com.woodsstudio.testbuilt",
-    "name": "Test",
-    "category": "HomeUI Apps",
+    "id": "com.woodsstudio.games",
+    "name": "WS Games Hub",
+    "category": "Splash Desktop",
     "developer": "Woods Studio",
-    "version": "Test",
-    "icon": "https://woodsstudio.dev/notrealimg.png",
+    "version": "14.5",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/4d789649-8cf3-48b8-a4ff-50c582570a92/com.woodsstudio.games.png?content-type=image%2Fpng",
     "downloads": {
-      "windows": "https://woodsstudio.dev/notrealfile.exe",
-      "linux": "https://woodsstudio.dev/notrealfile.dev",
-      "android": "https://woodsstudio.dev/notrealfile.aab"
+      "windows": "https://archive.org/download/woodsstudiogamesinstallerbase/wsgamesinstaller.exe",
+      "linux": "",
+      "android": ""
     },
-    "description": "This app is a Test App to make sure all our systems work",
+    "description": "Woods Studio Games Hub v14",
     "timestamp": 1791093856895
   }
 ]
