@@ -1,0 +1,15 @@
+{
+  "id": "com.woodsstudio.widgets",
+  "name": "Widgets",
+  "category": "HomeUI Apps",
+  "developer": "Woods Studio",
+  "version": "1.0.0",
+  "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e5b24e4b-505b-454c-952b-1ecc26a31c2c/com.woodsstudio.widgets.png?content-type=image%2Fpng",
+  "downloads": {
+    "windows": "",
+    "linux": "",
+    "android": ""
+  },
+  "description": "Customizable widgets and dynamic desktop glanceables for system monitoring and weather.",
+  "isBuiltin": true
+}
