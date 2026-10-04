@@ -182,5 +182,20 @@
     "description": "For Android only\n\nDownload all your favorite CloverUI apps, on  more OSs! \nYou can also publish your own apps on this platform, completely free! You just need a Clover Account. (For Beta versions if you did upload an app, we updated our service workers. Please reupload)\n\nBy downloading this app on Android, you agree to the Store Terms of Use, Privacy Policy, and Security Policy (meaning we can deactivate and remove your apps if you violate our terms).\n\n© Woods Studio.",
     "isBuiltin": false,
     "timestamp": 1791105104773
+  },
+  {
+    "id": "Test",
+    "name": "Test App (Login)",
+    "category": "Splash Desktop",
+    "developer": "iwoods",
+    "version": "1.0.0",
+    "icon": "https://m.com/png.png",
+    "downloads": {
+      "windows": "https://m.com/png.png",
+      "linux": "https://m.com/png.png",
+      "android": "https://m.com/png.png"
+    },
+    "description": "https://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.png",
+    "isBuiltin": false
   }
 ]
