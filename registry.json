@@ -1,17 +1,107 @@
 [
   {
-    "id": "com.woodsstudio.games",
-    "name": "WS Games Hub",
-    "category": "Splash Desktop",
+    "id": "com.woodsstudio.messages",
+    "name": "Messages",
+    "category": "HomeUI Apps",
     "developer": "Woods Studio",
-    "version": "14.5",
-    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/4d789649-8cf3-48b8-a4ff-50c582570a92/com.woodsstudio.games.png?content-type=image%2Fpng",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/544cca58-6fe9-49a1-b879-87364f940db9/com.woodsstudio.messages.png?content-type=image%2Fpng",
     "downloads": {
-      "windows": "https://archive.org/download/woodsstudiogamesinstallerbase/wsgamesinstaller.exe",
+      "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Woods Studio Games Hub v14",
-    "timestamp": 1791093856895
+    "description": "Official messaging client for the HomeUI environment. Stay connected with secure, instant communications.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.maps",
+    "name": "Maps",
+    "category": "HomeUI Apps",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/011b47a8-437b-4754-ba88-3797913e1d59/com.woodsstudio.maps.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "Explore coordinates, navigations, and global environments built directly for HomeUI devices.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.widgets",
+    "name": "Widgets",
+    "category": "HomeUI Apps",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e5b24e4b-505b-454c-952b-1ecc26a31c2c/com.woodsstudio.widgets.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "Customizable widgets and dynamic desktop glanceables for system monitoring and weather.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.finder",
+    "name": "Finder",
+    "category": "HomeUI Apps",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/b0339484-67f3-4dd9-897f-24e5b1df5bfb/com.woodsstudio.finder.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "The core navigation and document organizer across your HomeUI filesystem.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.cloudplus",
+    "name": "Cloud +",
+    "category": "Splash Desktop",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/901164b4-c969-413c-8a9f-15e44c15baf2/com.woodsstudio.cloud.plusassetsicon.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "Seamless file synchronization, backups, and cross-device storage for Splash Desktop.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.service",
+    "name": "Service",
+    "category": "Splash Desktop",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/816bfeed-925a-426f-8b35-37ab1c874e0b/com.woodsstudio.helpassetsicon.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "Diagnostics, assistance, and service tools for managing system status on your desktop.",
+    "isBuiltin": true
+  },
+  {
+    "id": "com.woodsstudio.platformagent",
+    "name": "Platform Agent",
+    "category": "Splash Desktop",
+    "developer": "Woods Studio",
+    "version": "1.0.0",
+    "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e31bb72d-d335-4cfc-b74d-108a36d97953/com.woodsstudio.platformassetsicon.png?content-type=image%2Fpng",
+    "downloads": {
+      "windows": "",
+      "linux": "",
+      "android": ""
+    },
+    "description": "Android application compatibility layer and platform services support runtime (Google Play Services analog).",
+    "isBuiltin": true
   }
 ]
