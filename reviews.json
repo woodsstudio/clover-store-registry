@@ -18,6 +18,13 @@
   ],
   "com.woodsstudio.prism.news": [
     {
+      "name": "Anonymous",
+      "rating": 2,
+      "comment": "app wont download on apple",
+      "date": "10/4/2026",
+      "timestamp": 1791102491391
+    },
+    {
       "name": "Nathan (Samsung Galaxy S23 Ultra)",
       "rating": 4,
       "comment": "works great, sometimes doesn't show news stuff, cant wait to join the server, but i cant use the horizon gate thing",
