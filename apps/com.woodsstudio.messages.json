@@ -1,0 +1,15 @@
+{
+  "id": "com.woodsstudio.messages",
+  "name": "Messages",
+  "category": "HomeUI Apps",
+  "developer": "Woods Studio",
+  "version": "1.0.0",
+  "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/544cca58-6fe9-49a1-b879-87364f940db9/com.woodsstudio.messages.png?content-type=image%2Fpng",
+  "downloads": {
+    "windows": "",
+    "linux": "",
+    "android": ""
+  },
+  "description": "Official messaging client for the HomeUI environment. Stay connected with secure, instant communications.",
+  "isBuiltin": true
+}
