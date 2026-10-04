@@ -1,0 +1,105 @@
+name: Publish App to Registry
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-app:
+    if: contains(github.event.issue.labels.*.name, 'app-submission') || contains(github.event.issue.title, '[App Submission]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Parse Issue and Update Registry
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const issueBody = context.payload.issue.body;
+
+            const match = issueBody.match(/```json\s*([\s\S]*?)\s*```/);
+            if (!match) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: "❌ **Failed:** Could not find a valid JSON block in this submission."
+              });
+              return;
+            }
+
+            let newApp;
+            try {
+              newApp = JSON.parse(match[1]);
+            } catch (err) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `❌ **Failed:** Invalid JSON syntax: \`${err.message}\``
+              });
+              return;
+            }
+
+            if (!newApp.id || !newApp.name) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: "❌ **Failed:** App missing required fields (`id`, `name`)."
+              });
+              return;
+            }
+
+            fs.mkdirSync('apps', { recursive: true });
+            fs.writeFileSync(`apps/${newApp.id}.json`, JSON.stringify(newApp, null, 2));
+
+            let registry = [];
+            if (fs.existsSync('registry.json')) {
+              try {
+                registry = JSON.parse(fs.readFileSync('registry.json', 'utf8'));
+              } catch(e) {
+                registry = [];
+              }
+            }
+
+            const existingIndex = registry.findIndex(a => a.id === newApp.id);
+            if (existingIndex >= 0) {
+              registry[existingIndex] = newApp;
+            } else {
+              registry.push(newApp);
+            }
+
+            fs.writeFileSync('registry.json', JSON.stringify(registry, null, 2));
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `✅ **Success!** \`${newApp.name}\` (\`${newApp.id}\`) has been added to the Clover Store registry.`
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Clover Registry Bot"
+          git config --global user.email "bot@woodsstudio.dev"
+          git add apps/ registry.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update app from issue #${{ github.event.issue.number }}" && git push)
