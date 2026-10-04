@@ -15,5 +15,14 @@
       "comment": "Test app (would not recommend",
       "date": "10/4/2026"
     }
+  ],
+  "com.woodsstudio.prism.news": [
+    {
+      "name": "Nathan (Samsung Galaxy S23 Ultra)",
+      "rating": 4,
+      "comment": "works great, sometimes doesn't show news stuff, cant wait to join the server, but i cant use the horizon gate thing",
+      "date": "10/4/2026",
+      "timestamp": 1791102447782
+    }
   ]
 }
