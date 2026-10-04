@@ -1,0 +1,15 @@
+{
+  "id": "com.woodsstudio.finder",
+  "name": "Finder",
+  "category": "HomeUI Apps",
+  "developer": "Woods Studio",
+  "version": "1.0.0",
+  "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/b0339484-67f3-4dd9-897f-24e5b1df5bfb/com.woodsstudio.finder.png?content-type=image%2Fpng",
+  "downloads": {
+    "windows": "",
+    "linux": "",
+    "android": ""
+  },
+  "description": "The core navigation and document organizer across your HomeUI filesystem.",
+  "isBuiltin": true
+}
