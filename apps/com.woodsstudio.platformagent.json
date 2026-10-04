@@ -1,0 +1,15 @@
+{
+  "id": "com.woodsstudio.platformagent",
+  "name": "Platform Agent",
+  "category": "Splash Desktop",
+  "developer": "Woods Studio",
+  "version": "1.0.0",
+  "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e31bb72d-d335-4cfc-b74d-108a36d97953/com.woodsstudio.platformassetsicon.png?content-type=image%2Fpng",
+  "downloads": {
+    "windows": "",
+    "linux": "",
+    "android": ""
+  },
+  "description": "Android application compatibility layer and platform services support runtime (Google Play Services analog).",
+  "isBuiltin": true
+}
