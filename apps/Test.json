@@ -1,0 +1,15 @@
+{
+  "id": "Test",
+  "name": "Test App (Login)",
+  "category": "Splash Desktop",
+  "developer": "iwoods",
+  "version": "1.0.0",
+  "icon": "https://m.com/png.png",
+  "downloads": {
+    "windows": "https://m.com/png.png",
+    "linux": "https://m.com/png.png",
+    "android": "https://m.com/png.png"
+  },
+  "description": "https://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.pnghttps://m.com/png.png",
+  "isBuiltin": false
+}
