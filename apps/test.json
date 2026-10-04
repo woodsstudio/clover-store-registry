@@ -2,13 +2,13 @@
   "id": "test",
   "name": "Test",
   "category": "Splash Desktop",
-  "developer": "Woods Studio Arts",
+  "developer": "Woods Studio Developers",
   "version": "0.Test",
   "icon": "https://woodsstudio.dev/test.png",
   "downloads": {
-    "windows": "https://woodsstudio.dev/test.exe",
-    "linux": "https://woodsstudio.dev/test.deb",
-    "android": "https://woodsstudio.dev/test.apk"
+    "windows": "",
+    "linux": "",
+    "android": ""
   },
   "description": "Test",
   "isBuiltin": false
