@@ -3,13 +3,13 @@
   "name": "Service",
   "category": "Splash Desktop",
   "developer": "Woods Studio",
-  "version": "1.0.0",
+  "version": "17",
   "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/816bfeed-925a-426f-8b35-37ab1c874e0b/com.woodsstudio.helpassetsicon.png?content-type=image%2Fpng",
   "downloads": {
     "windows": "",
     "linux": "",
     "android": ""
   },
-  "description": "Diagnostics, assistance, and service tools for managing system status on your desktop.",
+  "description": "Device information, support, recovery. Service is the go to for help.",
   "isBuiltin": true
 }
