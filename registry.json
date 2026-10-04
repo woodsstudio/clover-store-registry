@@ -4,14 +4,14 @@
     "name": "Messages",
     "category": "HomeUI Apps",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "6.1",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/544cca58-6fe9-49a1-b879-87364f940db9/com.woodsstudio.messages.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Official messaging client for the HomeUI environment. Stay connected with secure, instant communications.",
+    "description": "Messages is the place to go for conversations, groups, and more, with Google's RCS chat support, you can communicate with people on Android. Plus, with Aikumi AI, you can talk with Aikumi inside Messages. ",
     "isBuiltin": true
   },
   {
@@ -19,7 +19,7 @@
     "name": "Maps",
     "category": "HomeUI Apps",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "6",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/011b47a8-437b-4754-ba88-3797913e1d59/com.woodsstudio.maps.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
@@ -34,14 +34,14 @@
     "name": "Widgets",
     "category": "HomeUI Apps",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "6.2",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e5b24e4b-505b-454c-952b-1ecc26a31c2c/com.woodsstudio.widgets.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Customizable widgets and dynamic desktop glanceables for system monitoring and weather.",
+    "description": "Customizable widgets and dynamic desktop glanceables for system monitoring and weather, plus third party apps!",
     "isBuiltin": true
   },
   {
@@ -49,14 +49,14 @@
     "name": "Finder",
     "category": "HomeUI Apps",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "6.5",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/b0339484-67f3-4dd9-897f-24e5b1df5bfb/com.woodsstudio.finder.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "The core navigation and document organizer across your HomeUI filesystem.",
+    "description": "For finding and seeing all your Woods Studio devices, even if they get lost or stolen.",
     "isBuiltin": true
   },
   {
@@ -64,7 +64,7 @@
     "name": "Cloud +",
     "category": "Splash Desktop",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "12",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/901164b4-c969-413c-8a9f-15e44c15baf2/com.woodsstudio.cloud.plusassetsicon.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
@@ -79,14 +79,14 @@
     "name": "Service",
     "category": "Splash Desktop",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "17",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/816bfeed-925a-426f-8b35-37ab1c874e0b/com.woodsstudio.helpassetsicon.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Diagnostics, assistance, and service tools for managing system status on your desktop.",
+    "description": "Device information, support, recovery. Service is the go to for help.",
     "isBuiltin": true
   },
   {
@@ -94,27 +94,27 @@
     "name": "Platform Agent",
     "category": "Splash Desktop",
     "developer": "Woods Studio",
-    "version": "1.0.0",
+    "version": "25 (app v22)",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/e31bb72d-d335-4cfc-b74d-108a36d97953/com.woodsstudio.platformassetsicon.png?content-type=image%2Fpng",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Android application compatibility layer and platform services support runtime (Google Play Services analog).",
+    "description": "Android application compatibility layer and platform services support runtime.",
     "isBuiltin": true
   },
   {
     "id": "test",
     "name": "Test",
     "category": "Splash Desktop",
-    "developer": "Woods Studio Arts",
+    "developer": "Woods Studio Developers",
     "version": "0.Test",
     "icon": "https://woodsstudio.dev/test.png",
     "downloads": {
-      "windows": "https://woodsstudio.dev/test.exe",
-      "linux": "https://woodsstudio.dev/test.deb",
-      "android": "https://woodsstudio.dev/test.apk"
+      "windows": "",
+      "linux": "",
+      "android": ""
     },
     "description": "Test",
     "isBuiltin": false
