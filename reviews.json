@@ -29,5 +29,13 @@
       "date": "10/4/2026",
       "timestamp": 1791102447782
     }
+  ],
+  "com.woodsstudio.toastedgames.sandbox": [
+    {
+      "name": "Peak game",
+      "rating": 5,
+      "comment": "It's a good game",
+      "date": "2026-10-05T02:49:12.260Z"
+    }
   ]
 }
