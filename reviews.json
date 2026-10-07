@@ -38,6 +38,12 @@
   ],
   "com.woodsstudio.toastedgames.sandbox": [
     {
+      "name": "Good",
+      "rating": 4,
+      "comment": "Good game IG",
+      "date": "2026-10-07T02:13:50.825Z"
+    },
+    {
       "name": "Peak game",
       "rating": 5,
       "comment": "It's a good game",
