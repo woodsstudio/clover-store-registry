@@ -186,12 +186,12 @@
   {
     "id": "com.skylar.pwa",
     "name": "[RESTRICTED] Skylar's PWA's",
-    "category": "Unverified",
-    "developer": "Unverified Developer",
+    "category": "App Suite",
+    "developer": "[⛔] Skylar's Suite",
     "genre": "N/A",
-    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSndZDXk7xVKqSRhLfvKcQEusnPF2Ce1S1JTDDZJxqVA&s=10",
+    "icon": "https://images.squarespace-cdn.com/content/v1/6ab52351cfb6e609df15be60/805dc894-9aee-47ed-a1c2-f79c0b4cb20c/red-x-icon.webp?format=2500w",
     "version": "N/A",
-    "description": "[RESTRICTED APP] (This app is restricted by Woods Studio due to nonfatal data inside the app file (.wsa) that could damage your device.) Designed for Clover devices, a PWA Save State replacing my old version on their old platform.\nDown for Updates",
+    "description": "[RESTRICTED APP] (This app is restricted by Woods Studio due to nonfatal data inside the app file (.wsa) that could damage your device.)/nDesigned for Clover HomeUI 2+",
     "downloads": {
       "windows": "",
       "linux": "",
