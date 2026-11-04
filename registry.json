@@ -105,18 +105,18 @@
     "isBuiltin": true
   },
   {
-    "id": "test",
-    "name": "Test",
-    "category": "Splash Desktop",
-    "developer": "Woods Studio Developers",
-    "version": "0.Test",
-    "icon": "https://woodsstudio.dev/test.png",
+    "id": "null",
+    "name": "",
+    "category": "HomeUI Apps",
+    "developer": "",
+    "version": "",
+    "icon": "",
     "downloads": {
       "windows": "",
       "linux": "",
       "android": ""
     },
-    "description": "Test",
+    "description": "",
     "isBuiltin": false
   },
   {
@@ -139,7 +139,7 @@
     "id": "com.woodsstudio.prism.news",
     "name": "Prism News",
     "category": "App Suite",
-    "developer": "Woods Studio",
+    "developer": "HorizonGate Network",
     "version": "2.5",
     "icon": "https://images.squarespace-cdn.com/content/6ab52351cfb6e609df15be60/f2a68b4c-2df1-4a78-bcb2-cf191dd317e7/com.woodsstudio.prism.news.assets.main.header.logo.png?StorePlatform",
     "downloads": {
