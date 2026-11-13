@@ -271,7 +271,7 @@
     "description": "Clover Store for Android is the best way to get the latest apps and updates from Woods Studio, plus other developers! You can also publish your own app, for everyone to see, if it's for Clover Splash, Clover HomeUI, Windows, Subsystem, and even Android, it's one of the fastest ways to get it out.",
     "downloads": {
       "windows": "",
-      "linux": "",
+      "linux": "https://archive.org/download/app-release_20261004/6.apk",
       "android": "https://archive.org/download/clover-store-splash-aligned-signed/CloverStore-splash-aligned-signed.apk"
     }
   }
